@@ -1,0 +1,42 @@
+{
+  "name": "gerencianet/module-magento2",
+  "description": "Efí Payment Gateway",
+  "version": "2.0.2",
+  "type": "magento2-module",
+  "license": "OSL-3.0",
+  "authors": [{
+    "name": "Jéssica Gava"
+  },{
+    "name": "Guilherme Cota"
+  },{
+    "name": "Sady Coimbra"
+  },{
+    "name": "Matheus Rodrigues"
+  },{
+    "name": "João Vitor Oliveira"
+  },{
+    "name": "Palloma Brito"
+  },{
+     "name": "Marcelo Machado"
+  },{
+      "name": "Julia Tavares"
+  },{
+      "name": "Igor Pedroso"
+  },{
+      "name": "Luiz Campos"
+  }],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.3.0",
+    "gerencianet/gerencianet-sdk-php": " ~5.0",
+    "laminas/laminas-log": "*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Gerencianet\\Magento2\\": ""
+    }
+  }
+}
